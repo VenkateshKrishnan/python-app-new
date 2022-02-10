@@ -1,4 +1,4 @@
-FROM alpine:latest
+FROM  ubi8/python-39
 
 RUN apk add --no-cache py3-pip \
     && pip3 install --upgrade pip \
