@@ -1,4 +1,4 @@
-FROM  FROM python:3.8-slim-buster
+FROM python:3.8-slim-buster
 
 RUN yum install -y py3-pip \
     && pip3 install --upgrade pip \
