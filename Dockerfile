@@ -11,7 +11,7 @@ WORKDIR /app
 COPY . /app
 RUN wget https://github.com/OlafenwaMoses/ImageAI/releases/download/essentials-v5/resnet50_coco_best_v2.1.0.h5/ -O resnet50_coco_best_v2.1.0.h5
 # RUN pip3 --no-cache-dir install -r requirements.txt
-
+ENV APP_FILE FirstDetection.py
 EXPOSE 5000
 
 ENTRYPOINT ["python3"]
