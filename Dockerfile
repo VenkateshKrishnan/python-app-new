@@ -15,4 +15,4 @@ ENV APP_FILE FirstDetection.py
 EXPOSE 5000
 
 ENTRYPOINT ["python3"]
-CMD ["FirstDetection.py"]
+CMD ["app.py"]
